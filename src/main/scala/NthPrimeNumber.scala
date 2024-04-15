@@ -4,7 +4,7 @@ object NthPrimeNumber extends App {
 
   // Main method to find the nth prime number
   def findNthPrimeNumber(n: Int): Int = {
-    if (n <= 0) -1
+    if (n <= 0) return -1
 
     n match {
       case 1 => 2
@@ -38,5 +38,5 @@ object NthPrimeNumber extends App {
     }
   }
 
- println(findNthPrimeNumber(6))
+ println(findNthPrimeNumber(4))
 }
